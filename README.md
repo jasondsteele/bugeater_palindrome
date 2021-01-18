@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BugeaterPalindrome
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bugeater_palindrome`. To experiment with that code, run `bin/console` for an interactive prompt.
@@ -36,5 +35,3 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/bugeater_palindrome.
 =======
 # bugeater_palindrome
-
->>>>>>> 4ac042e79071e0c6f840606fc8e5f66336d6a6a4
