@@ -1,0 +1,2 @@
+# bugeater_palindrome
+
