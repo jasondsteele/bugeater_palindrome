@@ -3,11 +3,24 @@
 require "test_helper"
 
 class BugeaterPalindromeTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::BugeaterPalindrome::VERSION
+  
+  def test_not_a_palindrome
+    refute "testFail".palindrome?
+  end
+  
+  def test__a_palindrome
+    assert "racecar".palindrome?
   end
 
-  def test_it_does_something_useful
-    assert true
+  def test_mixed_case_test
+    assert "RaceCar".palindrome?
+  end
+  
+  def test_punctuation
+    assert "Madam, I'm Adam.".palindrome?
+  end
+  
+  def test_letters
+    assert_equal  "MadamImAdam", "Madam, I'm Adam.".letters
   end
 end
