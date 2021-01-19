@@ -20,7 +20,7 @@ class BugeaterPalindromeTest < Minitest::Test
     assert "Madam, I'm Adam.".palindrome?
   end
   
-  def test_letters
-    assert_equal  "MadamImAdam", "Madam, I'm Adam.".letters
+  def test_numbers
+    assert 12321.palindrome?
   end
 end
