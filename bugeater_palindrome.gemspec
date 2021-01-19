@@ -9,15 +9,15 @@ Gem::Specification.new do |spec|
   spec.email         = ["jason@bugeaterdev.com"]
 
   spec.summary       = "Palindrome gem"
-  spec.description   = "Write a longer description or delete this line."
-  spec.homepage      = "https://gitlab.com/bugeater/bugeater_palindrome.git"
+  spec.description   = "Example gem."
+  spec.homepage      = "https://github.com/jasondsteele/bugeater_palindrome.git"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://gitlab.com/bugeater/bugeater_palindrome.git"
-  spec.metadata["changelog_uri"] = "https://gitlab.com/bugeater/bugeater_palindrome.git"
+  spec.metadata["source_code_uri"] = "https://github.com/jasondsteele/bugeater_palindrome.git"
+  spec.metadata["changelog_uri"] = "https://github.com/jasondsteele/bugeater_palindrome.git"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
