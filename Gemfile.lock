@@ -23,7 +23,7 @@ PLATFORMS
 DEPENDENCIES
   bugeater_palindrome!
   minitest (~> 5.0)
-  minitest-reporters (= 1.2.0)
+  minitest-reporters (~> 1.2.0)
   rake (~> 13.0)
 
 BUNDLED WITH
